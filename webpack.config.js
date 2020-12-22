@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: './index.js',
-  mode:'production',
+  // mode:'production',
   target:'web',
   output: {
     filename: '[name].[hash].js',
